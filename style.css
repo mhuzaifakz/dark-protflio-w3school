@@ -1,0 +1,322 @@
+body {
+    background-color: black;
+    background-image: url('images/man_smoke.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+/* This is the side bar */
+.side-bar {
+    height: 735px;
+    position: fixed;
+    width: 150px;
+    background-color: black;
+}
+
+.side-bar a {
+    display: block;
+    text-decoration: none;
+    padding: 40px 0px 40px;
+    text-align: center;
+    color: white;
+
+}
+
+.side-bar a:hover {
+    background-color: white;
+    color: black;
+
+
+
+}
+
+.side-bar a img {
+
+    width: 100px;
+    height: 100px;
+}
+
+.John-title {
+    color: white;
+    margin-left: 30%;
+
+
+}
+
+.John-title div h1 {
+    font-size: 100px;
+}
+
+.introduction {
+    width: 60%;
+    height: 40%;
+    margin-left: 30%;
+    margin-top: 70%;
+}
+
+.introduction p {
+    color: #696969;
+    font-size: medium;
+
+}
+
+.skill-section {
+    color: #696969;
+    margin-left: 30%;
+}
+
+.skill-section h3 {
+    color: #ffffff;
+}
+
+.rank,
+.two-rank,
+.three-rank {
+    padding: 16px;
+    margin: 10px;
+    letter-spacing: 20%;
+    font-size: larger;
+
+}
+
+.rank-bar,
+.two-rank-bar,
+.three-rank-bar {
+    background-color: #ffffff;
+    height: 25px;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+}
+
+.small-rank-bar {
+    background-color: #696969;
+    height: 25px;
+    width: 95%;
+}
+
+.two-small-rank-bar {
+    background-color: #696969;
+    height: 25px;
+    width: 85%;
+}
+
+.three-small-rank-bar {
+    background-color: #696969;
+    height: 25px;
+    width: 75%;
+}
+
+.progess {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #ffffff;
+    color: black;
+    padding: 16px;
+}
+
+.progess-div {
+    padding: 16px;
+}
+
+.progess-span {
+    font-size: x-large;
+}
+
+.one-button {
+    background-color: #ffffff;
+    padding: 12px;
+    color: black;
+    margin-top: 30px;
+    border: none;
+
+}
+
+.one-button:hover {
+    background-color: lightgrey;
+}
+
+.choose-price {
+    color: lightgrey;
+}
+
+.choose-price-div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3px;
+    width: 100%;
+    justify-content: left;
+
+}
+
+.choose-price-div ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+
+.choose-price-div ul:hover {
+    opacity: 1;
+}
+
+.choose-price-div ul li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #616161;
+    list-style: none;
+    padding: 16px;
+}
+
+.choose-price-div ul li h1 {
+    color: #fff !important;
+}
+
+.signup-pro-basic {
+    background-color: #fff;
+    padding: 15px;
+    color: black;
+    border: none;
+}
+
+.signup-pro-basic:hover {
+    background-color: black;
+    color: #fff;
+
+}
+
+.reputation {
+    display: grid;
+    grid-template-columns: 10% 30%;
+}
+
+.reputation-span {
+    font-size: 140%;
+    padding: 4px;
+}
+.one-reputation {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin-right: auto;
+}
+.two-reputation {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin-right: auto;
+}
+
+.input-box {
+    background-color: #fff;
+    color: black;
+    padding: 16px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+}
+
+.input-button {
+    background-color: #fff;
+    color: black;
+    padding: 16px;
+    width: 20%;
+    margin-top: 10px;
+    border: none;
+}
+
+.input-button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    margin-top: 120px;
+}
+
+.I {
+    color: #fff;
+    font-size: x-large;
+}
+
+.I:hover {
+    opacity: 0.1;
+}
+
+.link-w3:hover {
+    color: green;
+}
+
+.image-gallery {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    gap: 2%;
+
+}
+
+.column-one img {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.column-two img {
+    width: 100%;
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 1000px){
+    .side-bar {
+        display: flex;
+        transition: all 0.10 ease-in;
+        opacity: 0.9;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        position: sticky;
+       
+
+    }
+    .home {
+        background-color: #616161;
+        opacity: 1;
+        
+    }
+    .side-bar a:hover {
+        height: auto;
+        background-color: grey;
+        color: white;
+    }
+    .side-bar a {
+        padding: 2% 2%;
+        font-size: 100%;
+
+    }
+    .John-title {
+        margin-top: 12%;
+        margin-left: 20%;
+    }
+    .introduction {
+         margin-left: 10%;
+    }
+    .skill-section {
+        margin-left: 10%;
+    }
+    .reputation-span {
+        padding: 0;
+    }
+     .detail {
+        margin-bottom: 25%;
+        margin-left: 10%;
+     }
+     .detail p {
+        padding-bottom: 0;
+        padding-top: 0;
+     }
+}
